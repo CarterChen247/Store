@@ -74,4 +74,7 @@ dependencies {
     implementation libraries.coroutinesAndroid
 
     debugImplementation libraries.leakcanary
+
+    debugImplementation 'com.facebook.flipper:flipper:0.99.0'
+    debugImplementation 'com.facebook.soloader:soloader:0.10.1'
 }
